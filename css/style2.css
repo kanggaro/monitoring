@@ -1,0 +1,75 @@
+
+/* index.php */
+
+.list-mesin {
+    border-radius: 20px;
+    background-color: #f47920;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.list-mesin:hover {
+    background-color: #be5a27;
+}
+
+.img{
+    border-radius: 25%;
+    background-color: white;
+}
+
+img{
+    border-radius: 25%;
+}
+
+a .btn-index{
+    background-color: #f47920;
+    width: fit-content;
+}
+
+/* lable css */
+.label-unavailable{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: red;
+    padding: 0px 5px;
+}
+.label-available{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: rgb(9, 188, 9);
+    padding: 0px 5px;
+}
+
+.unavailable-history{
+    background-color: #1268b3;
+    border-radius: 0 25px 25px 0;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 400;
+}
+.unavailable-history:hover{
+    background-color: #0a4f86;
+    color: aliceblue;
+}
+
+.unavailable-list-mesin{
+    background-color: #be5a27;
+    border-radius: 25px 0 0 25px;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: Bold;
+}
+
+/* for screen 0 - 767px */
+@media only screen and (max-width: 767px) {
+    .unavailable-list-mesin{
+        border-radius: 25px 25px 0 0;
+    }
+    .unavailable-history{
+        border-radius: 0 0 25px 25px;
+        padding:10px 0 10px 0;
+    }
+  }

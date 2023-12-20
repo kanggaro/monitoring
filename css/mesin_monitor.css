@@ -1,0 +1,39 @@
+
+/* mesin-monitor */
+
+/* alert monitor */
+.alert-monitor{
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    background-color: rgb(253, 247, 200);
+    border: 2px solid rgb(254, 225, 0);
+    color: rgb(111, 78, 0);
+    font-weight: 550;
+}
+
+.hst-body {
+    background-color:#fff5ef;
+}
+
+.hst-body:hover {
+    background-color: #ffecdf;
+}
+
+.alert-data{
+    background-color: green;
+}
+
+.bg1:hover {
+    /* box-shadow: 5px 10px 20px #888888; */
+    content: url('../img/bg-2.png');
+}
+.bm1:hover {
+    /* box-shadow: 5px 10px 20px #888888; */
+    content: url('../img/bm-2.png');
+}
+
+@media only screen and (max-width: 444px) {
+    /* p{
+        padding: 10px 10px 10px 10px;
+    } */
+}

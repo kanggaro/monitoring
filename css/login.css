@@ -1,0 +1,61 @@
+/* background-image:linear-gradient(#f47920, #1268b3); */
+section{
+    background-image: url("../img/PKT_fullview.jpg");
+    background-size: cover;
+}
+
+.pkt_h{
+    width: 500px;
+}
+
+.pkt_view{
+    height: auto;
+    border-radius: 1rem 0 0 1rem;
+}
+.t{
+    opacity: 50%;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 60%) !important;
+    backdrop-filter: saturate(200%) blur(20px);
+    
+    box-shadow: 5px 5px 100px #bcb9b9;
+}
+
+.alert-login{
+    background-color: rgb(255, 243, 243);
+    border-radius: 4px;
+    border: 1px solid red;
+    color: rgb(203, 30, 11);
+    padding: 3px 7px;
+    font-size: 14px;
+}
+
+.img-pkt-h{
+    width:300px;
+}
+
+.btn-login{
+    /* background-image:linear-gradient(to right, #f47920, #1268b3); */
+    background-color: #1268b3;
+    border: 1px solid #1268b3;
+    border-radius: 5px;
+    color: white;
+}
+.btn-login:hover{
+    /* background-image:linear-gradient(to right, #f47920, #1268b3); */
+    background-color: #0a4f86;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .img-pkt-h{
+        width: 250px;
+    }
+    /* .t{
+        margin-right: 20px;
+    } */
+}
+
+
